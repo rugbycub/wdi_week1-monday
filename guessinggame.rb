@@ -1,5 +1,5 @@
 random = rand(1..100)
-puts random
+
 
 counter = 1
 guess = 0
