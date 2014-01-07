@@ -15,7 +15,7 @@ guess = gets.to_i
 		counter += 1
 
 	elsif guess > random
-		puts "The number lis lower than #{guess}. Guess again"
+		puts "The number is lower than #{guess}. Guess again"
 		counter += 1
 
 	else
@@ -24,5 +24,5 @@ guess = gets.to_i
 
 end 
 
-puts "#{guess} is correct.  You got it in #{counter} times"
+puts "#{guess} is correct.  You got it in #{counter} tries"
 
