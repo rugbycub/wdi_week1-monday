@@ -5,9 +5,11 @@ spacing_length = 0
 
 #decide the justification
 puts "How would you like the text justified"
+puts "(left, center, right)"
 justification = gets.chomp
 
 spacing_length = input.max.length + 5
+
 #determine the spacing
 =begin
 
