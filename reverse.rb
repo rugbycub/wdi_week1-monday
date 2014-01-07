@@ -11,5 +11,5 @@ half.times do |x|
 	string[x], string[-x-1] = string[-x-1], string[x]
 end
 
-
+puts "the reversed string is:"
 puts string
